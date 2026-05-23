@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 🔎 SEO -->
+  <title>Fruity Milk | Banana Milk Drinks in Morocco</title>
+  <meta name="description" content="Fruity Milk sells fresh banana and milk drinks in Morocco. Try Fruity Haven for only 8 MAD. Natural, delicious, and fresh smoothies.">
+  <meta name="keywords" content="Fruity Milk, banana milk Morocco, smoothie Tangier, Fruity Haven drink, 8 MAD drink">
+  <meta name="author" content="Fruity Milk">
+
+  <!-- Social preview -->
+  <meta property="og:title" content="Fruity Milk - Banana Milk Drinks">
+  <meta property="og:description" content="Try Fruity Haven for only 8 MAD. Fresh banana milk smoothies in Morocco.">
+  <meta property="og:type" content="website">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8e6;
+    }
+
+    header {
+      background: #ffcc00;
+      padding: 20px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 30px;
+    }
+
+    .hero h1 {
+      font-size: 28px;
+    }
+
+    .product {
+      max-width: 350px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .price {
+      font-size: 22px;
+      font-weight: bold;
+      margin: 10px 0;
+      color: #ff9900;
+    }
+
+    button {
+      background: #25D366;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+    }
+
+    button:hover {
+      background: #1ebe5d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #fff0b3;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>🍌 Fruity Milk 🥛</header>
+
+<div class="hero">
+  <h1>Fresh Banana Milk Drinks in Morocco</h1>
+  <p>Natural • Cold • Delicious</p>
+</div>
+
+<!-- PRODUCT -->
+<div class="product">
+  <h2>Fruity Haven</h2>
+  <p>Banana + Milk Smoothie</p>
+  <div class="price">8 MAD</div>
+
+  <button onclick="orderNow()">Order on WhatsApp</button>
+</div>
+
+<footer>
+  © 2026 Fruity Milk — Banana Delicious 🥛🍌
+</footer>
+
+<script>
+function orderNow() {
+  let message = "Hi! I want to order Fruity Haven (8 MAD) from Fruity Milk.";
+  let phone = "212600000000"; // <-- change to YOUR WhatsApp number
+  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`);
+}
+</script>
+
+</body>
+</html>
